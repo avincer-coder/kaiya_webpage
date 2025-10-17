@@ -1,28 +1,24 @@
 /* 
-    HEADINGS
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal; 
+  HEADINGS
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal; 
     
-    NORMAL TEXTS
-    font-family: "Roboto", sans-serif;
-
+  NORMAL TEXTS
+  font-family: "Roboto", sans-serif;
 */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 .hero-container {
   position: relative;
   width: 100%;
 }
-
 header {
   position: relative;
 }
-
 .header-image {
   width: 100%;   /* ocupa todo el ancho disponible */
   height: auto;  /* mantiene la proporción de la imagen */
@@ -30,7 +26,6 @@ header {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-
 nav {
   position: absolute;       /* flota sobre la imagen */
   top: 30px;                 /* posición vertical: centro de la imagen */
@@ -44,7 +39,6 @@ nav {
   border-radius: 5px;
   /* border: 1px solid black; */
 }
-
 .nav_ul {
   display: flex;
   /* gap: 20px; */
@@ -52,59 +46,60 @@ nav {
   width: 250px;
   /* border: 1px solid yellow; */
 }
-
 .nav_a {
-    text-decoration: none;
-    color: rgb(82, 70, 70);
-    font-weight: bold;
-    font-size: 14px;
-    /* border: 1px solid red; */
-    background-color: rgba(249, 249, 249, 0.85); /* fondo semitransparente */
-    width: 85px;
-    font-family: "Roboto", sans-serif;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-decoration: none;
+  color: rgb(82, 70, 70);
+  font-weight: bold;
+  font-size: 14px;
+  /* border: 1px solid red; */
+  background-color: rgba(249, 249, 249, 0.85); /* fondo semitransparente */
+  width: 85px;
+  font-family: "Roboto", sans-serif;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav_a:hover{
-    color: rgb(0, 200, 255);
-    border: 2px solid rgb(0, 200, 255);
+  color: rgb(0, 200, 255);
+  border: 2px solid rgb(0, 200, 255);
 }
 .nav_li{
-    display: flex;
+  display: flex;
 }
-
 .a_home{
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
-
 .a_contact{
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
-
 .img_baby_parent_hands{
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .first_section{
-    margin-top: 20px;
-    display: flex;
-    padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
 }
 .p_first_section{
-    margin-left: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), /* capa blanca semitransparente */url('/images/flowers_one.PNG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
 }
 .second_section{
-    margin-top: 20px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img_black_white{
   border-radius: 30px;
