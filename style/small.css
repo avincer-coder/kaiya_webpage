@@ -107,38 +107,46 @@ nav {
     justify-content: center;
 }
 .img_black_white{
-    border-radius: 30px;
+  border-radius: 30px;
 }
-
-.sing_up_btn{
-    margin-top: 15px;
-    margin-bottom: 30px;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(0, 200, 255);
-    border-radius: 10px;
-    height: 25px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sign_up_btn{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 200, 255);
+  border-radius: 10px;
+  height: 25px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.sign_up_btn:hover{
+  background-color: blue;
+}
 footer{
   background-color: rgb(241, 232, 166);
-  color: rgb(0, 200, 255);  height: 100px;
+  color: rgb(0, 200, 255);  
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .icons{
   font-size: 32px;
-  margin: 15px;
 }
-
 .icons:hover{
   color: blue;
   cursor: pointer;
+}
+.social_icons_box{
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+}
+.footer_social{
+  color: rgb(0, 200, 255);  
+  text-decoration: none;
 }
