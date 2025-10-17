@@ -3,20 +3,26 @@
     margin: 0;
     padding: 0;
 }
-
+header{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
 .nav_a{
     text-decoration: none;
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 13px;
     color: black;
+    /* border: 1px solid green; */
 }
 
 .nav_ul{
   display: flex; 
-  justify-content: flex-end;
-  border: 1px solid red;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width: 160px;
 }
 
 .nav_li{
     list-style: none;
+    /* border: 1px solid yellow; */
 }
