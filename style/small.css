@@ -27,6 +27,8 @@ header {
   width: 100%;   /* ocupa todo el ancho disponible */
   height: auto;  /* mantiene la proporción de la imagen */
   display: block;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 nav {
