@@ -27,8 +27,8 @@ header {
   width: 100%;   /* ocupa todo el ancho disponible */
   height: auto;  /* mantiene la proporción de la imagen */
   display: block;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 nav {
@@ -83,4 +83,26 @@ nav {
 .a_contact{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+}
+
+.img_baby_parent_hands{
+    border-radius: 20px;
+}
+.first_section{
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+}
+.p_first_section{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_section{
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
