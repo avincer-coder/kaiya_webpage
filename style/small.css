@@ -63,6 +63,7 @@ nav {
 .nav_a:hover{
   color: rgb(0, 200, 255);
   border: 2px solid rgb(0, 200, 255);
+  background-color: white;
 }
 .nav_li{
   display: flex;
