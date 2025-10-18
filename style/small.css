@@ -9,8 +9,8 @@
 */
 
 :root{
-  --background-color: rgb(249, 214, 220);
-  --background-color-images: rgba(249, 214, 220, 0.7);
+  --background-color: rgb(255, 255, 255);
+  --background-color-images: rgba(255, 255, 255, 0.7);
   --headings-font: "Indie Flower", cursive;
   --text-font: "Roboto", sans-serif;
 }
@@ -152,6 +152,7 @@ footer{
   justify-content: space-around;
   width: 150px;
 }
+
 .footer_social{
   color: rgb(0, 200, 255);  
   text-decoration: none;
