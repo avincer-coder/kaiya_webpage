@@ -7,10 +7,20 @@
   NORMAL TEXTS
   font-family: "Roboto", sans-serif;
 */
+
+:root{
+  --background-color: rgb(249, 214, 220);
+  --background-color-images: rgba(249, 214, 220, 0.7);
+  --headings-font: "Indie Flower", cursive;
+  --text-font: "Roboto", sans-serif;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body{
+  background-color: var(--background-color);
 }
 .hero-container {
   position: relative;
@@ -89,11 +99,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), /* capa blanca semitransparente */url('../images/flowers_one.PNG');
+  background-image: linear-gradient(var(--background-color-images), var(--background-color-images)), /* capa blanca semitransparente */url('../images/flowers_one.PNG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--text-font);
 }
 .second_section{
   margin-top: 20px;
