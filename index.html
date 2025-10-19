@@ -38,19 +38,21 @@
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/small.css" />
     <link rel="stylesheet" href="style/large.css" />
-    <!-- <script src="scripts/date.js" defer></script> -->
+    <script src="scripts/main.js" defer></script>
     <!-- <script type="module" src="scripts/navigation.js"></script> -->
     <script src=""></script>
     <script src="https://kit.fontawesome.com/3a6e8db9a7.js" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src=""></script>
 
 </head>
 <body>
- <div class="hero-container">
   <header>
-    <div class="image-wrapper">
       <img src="images/one_320px.jpg" alt="Fondo" class="header-image">
-    </div>
     <nav>
       <ul class="nav_ul">
         <li class="nav_li"><a class="nav_a a_home" href="index.html">Home</a></li>
@@ -62,12 +64,14 @@
   <main>
     <section class="first_section">
       <img class="img_baby_parent_hands" src="images/two_150x225px.jpg" alt="baby and parents hands">
-      <p class="p_first_section">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime iusto harum pariatur cupiditate corporis, vel recusandae accusantium hic necessitatibus quam dolore sed, earum iste exercitationem.
-      </p>
+      <p id="responsiveText" class="p_first_section"></p>
+      <p></p>
     </section>
     
     <section class="second_section">
+      <p class="p_after_first_section">
+       MamaSupport offers a secure, on-demand video chat platform that connects you with someone to answer your questions, concerns, struggles, and anything else. Whether you’re dealing with sleepless nights, developmental milestones, or the unique needs of a neurodiverse child, my service provides real-time, personalized guidance from the comfort of your home.
+    </p>
       <img class="img_black_white" src="images/three_300x292px.jpg" alt="hands in black and white">
       <a class="sign_up_btn" href="contact.html">Sign Up!</a>
     </section>

@@ -6,13 +6,30 @@
     
   NORMAL TEXTS
   font-family: "Roboto", sans-serif;
+
+  <weight>: Use a value from 100 to 900
+  <uniquifier>: Use a unique and descriptive class name
+
+  // <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 */
+
+
+
+
 
 :root{
   --background-color: rgb(255, 255, 255);
   --background-color-images: rgba(255, 255, 255, 0.7);
   --headings-font: "Indie Flower", cursive;
-  --text-font: "Roboto", sans-serif;
+  --text-font: "Playfair Display", serif;
 }
 * {
   box-sizing: border-box;
@@ -88,11 +105,14 @@ nav {
 }
 .img_baby_parent_hands{
   border-radius: 20px;
+  height: 225px;
 }
 .first_section{
   margin-top: 20px;
   display: flex;
   padding: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .p_first_section{
   margin-left: 15px;
@@ -104,6 +124,16 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   font-family: var(--text-font);
+  /* width: 135px; */
+}
+.p_after_first_section{
+  padding: 20px;
+  font-family: var(--text-font);
+
+  line-height: 1.3;
+  background-color: rgb(241, 232, 166);
+  border-radius: 20px;
+  margin: 15px;
 }
 .second_section{
   margin-top: 20px;
@@ -113,6 +143,7 @@ nav {
   justify-content: center;
 }
 .img_black_white{
+  margin-top: 30px;
   border-radius: 30px;
 }
 .sign_up_btn{
