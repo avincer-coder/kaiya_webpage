@@ -20,13 +20,9 @@
   font-style: normal;
 }
 */
-
-
-
-
-
 :root{
   --background-color: rgb(255, 255, 255);
+  /* --background-color: blue; */
   --background-color-images: rgba(255, 255, 255, 0.7);
   --headings-font: "Indie Flower", cursive;
   --text-font: "Playfair Display", serif;
@@ -64,6 +60,17 @@ nav {
   align-items: center;
   padding: 10px 0px;
   border-radius: 5px;
+  /* border: 1px solid black; */
+}
+.mama_logo{
+    position: absolute;       /* flota sobre la imagen */
+  top: 50%;                 /* posición vertical: centro de la imagen */
+  left: 50%;                /* posición horizontal: centro de la imagen */
+  transform: translate(-50%, -50%); /* centra perfectamente el nav */
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border: 1px solid black; */
 }
 .nav_ul {
@@ -162,6 +169,9 @@ nav {
 .sign_up_btn:hover{
   background-color: blue;
 }
+/* .img_logo{
+  border-radius: 400px;
+} */
 footer{
   background-color: rgb(241, 232, 166);
   color: rgb(0, 200, 255);  
@@ -188,3 +198,4 @@ footer{
   color: rgb(0, 200, 255);  
   text-decoration: none;
 }
+
