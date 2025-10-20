@@ -52,7 +52,8 @@
 </head>
 <body>
   <header>
-      <img src="images/one_320px.jpg" alt="Fondo" class="header-image">
+      <img src="images/one_320px.jpg" srcset="
+      images/one_320px.jpg 767w, images/one_320px.jpg 320w, images/one.jpg 768w" alt="Fondo" class="header-image">
     <nav>
       <ul class="nav_ul">
         <li class="nav_li"><a class="nav_a a_home" href="index.html">Home</a></li>
@@ -60,7 +61,14 @@
         <li class="nav_li"><a class="nav_a a_contact" href="contact.html">Contact Me</a></li>
       </ul>
     </nav>
-    <img class="mama_logo" src="images/mama_support_logo105x106.png" alt="logo">
+   <img class="mama_logo"
+     src="images/mama_support_logo105x106.png"
+     srcset="
+       images/mama_support_logo105x106.png 320w,
+       images/mama_support_logo105x106.png 375w,
+       images/mama_support_logo736x736.png 7
+     "
+     alt="logo">
   </header>
   <main>
     <section class="first_section">
