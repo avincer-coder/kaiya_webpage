@@ -16,7 +16,44 @@ function updateText() {
 
 }
 
+
+function updateLogo() {
+  const logo = document.getElementById("mamaLogo");
+
+  if (window.innerWidth >= 768) {
+    logo.src = "images/mama_support_logo736x736.png"; // imagen grande
+  } else {
+    logo.src = "images/mama_support_logo105x106.png"; // imagen pequeña
+  }
+}
+
+function updateLogo() {
+    const logo = document.getElementById("mamaLogo");
+
+    if (window.innerWidth >= 768) {
+      // versión grande (pantallas tipo laptop o desktop)
+      logo.src = "images/mama_support_logo736x736.png";
+    } else {
+      // versión pequeña (móvil)
+      logo.src = "images/mama_support_logo105x106.png";
+    }
+  }
+
+  
+  let resizeTimeout;
+
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    // Evita que se recargue muchas veces mientras redimensionas
+    resizeTimeout = setTimeout(() => {
+      location.reload(); 
+    }, 200);
+  });
 // Llamar al cargar la página
 updateText();
 // Escuchar cuando el usuario cambia el tamaño de la ventana
 window.addEventListener("resize", updateText);
+
+window.addEventListener("resize", updateLogo);
+
+window.addEventListener("resize", up);
