@@ -153,6 +153,9 @@ nav {
   margin-top: 30px;
   border-radius: 30px;
 }
+.mamasupport_title{
+  display: none;
+}
 .sign_up_btn{
   margin-top: 15px;
   margin-bottom: 30px;
@@ -169,9 +172,9 @@ nav {
 .sign_up_btn:hover{
   background-color: blue;
 }
-/* .img_logo{
-  border-radius: 400px;
-} */
+.third_section{
+  display: none;
+}
 footer{
   background-color: rgb(241, 232, 166);
   color: rgb(0, 200, 255);  

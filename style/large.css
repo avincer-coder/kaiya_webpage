@@ -8,11 +8,79 @@
     position: static;          /* deja de ser absoluto */
     transform: none;           /* elimina el translate */
     justify-content: flex-start; /* o lo que necesites */
-    
+    margin: 0px;
+    padding: 0;
+    padding-right: 5px;
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-between;
   }
+  .nav_a{
+    height: 50px;
+  }
+  .nav_a:hover{
+    background-color: rgb(0, 200, 255);
+    color: white;
+  }
+  .first_section{
+    display: none;
+  }
+  .third_section{
+    display: contents;
+    display: flex;
+    /* width: 100vw; */
+  }
+  .aside_a{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+  }
+  .aside_a:hover{
+    background-color: rgb(246, 198, 235);
+    color: black;
+  }
+  .mamasupport_title{
+  display: contents;
+}
+.mision_aside{
+    background-color: rgb(13, 173, 242);
+    width: 33%;
+}
+.i_aside{
+    background-color: rgb(103, 170, 35);
+    width: 33%;
+}
+.touch_aside{
+    background-color: rgb(158, 65, 172);
+    width: 34%;
+}
+.drawings{
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.drawings_box{
+    display: flex;
+    flex-direction: row;
+}
+.about_box{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact_lady_child{
+    width: 800px;
+}
+.about_p{
+    width: 300px;
+}
 
 }
