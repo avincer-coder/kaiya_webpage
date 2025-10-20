@@ -30,7 +30,7 @@ function updateLogo() {
 function updateLogo() {
     const logo = document.getElementById("mamaLogo");
 
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth <= 768) {
       // versión grande (pantallas tipo laptop o desktop)
       logo.src = "images/mama_support_logo736x736.png";
     } else {
