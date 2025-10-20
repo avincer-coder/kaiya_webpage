@@ -56,9 +56,9 @@ nav {
   transform: translate(-50%, -50%); /* centra perfectamente el nav */
   z-index: 10;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 20px;
   border-radius: 5px;
   /* border: 1px solid black; */
 }
@@ -200,5 +200,11 @@ footer{
 .footer_social{
   color: rgb(0, 200, 255);  
   text-decoration: none;
+}
+h1{
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
+  border: 24px solid red;
+  width: 30px;
 }
 

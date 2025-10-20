@@ -7,12 +7,11 @@
     nav {
     position: static;          /* deja de ser absoluto */
     transform: none;           /* elimina el translate */
-    justify-content: flex-start; /* o lo que necesites */
+    /* justify-content: space-between;  */
     margin: 0px;
     padding: 0;
-    padding-right: 5px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
   }
   .nav_a{
     height: 50px;
@@ -47,16 +46,21 @@
   display: contents;
 }
 .mision_aside{
-    background-color: rgb(13, 173, 242);
+    background-color: rgb(108, 191, 227);
     width: 33%;
+    font-family: "Indie Flower", cursive;
+    border-bottom-left-radius: 25px;
 }
 .i_aside{
-    background-color: rgb(103, 170, 35);
+    background-color: rgb(164, 213, 114);
     width: 33%;
+    font-family: "Indie Flower", cursive;
 }
 .touch_aside{
-    background-color: rgb(158, 65, 172);
+    background-color: rgb(221, 138, 234);
     width: 34%;
+    font-family: "Indie Flower", cursive;
+    border-bottom-right-radius: 25px;
 }
 .drawings{
     height: auto;
@@ -220,5 +224,40 @@
     display: flex;
     justify-content: center;
 }
-
+.contact_icons{
+    color: rgb(248, 88, 208);
+}
+.contact_icons_box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h3_nav{
+    margin-bottom: 20px;
+}
+.header-image{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.second_section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.img_black_white{
+    margin-left: 15px;
+}
+.sing_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_after_first_section{
+    width: 700px;
+}
+.sign_up_btn{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+}
 }
