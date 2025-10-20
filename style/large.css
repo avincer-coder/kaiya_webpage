@@ -8,9 +8,10 @@
     position: static;          /* deja de ser absoluto */
     transform: none;           /* elimina el translate */
     justify-content: flex-start; /* o lo que necesites */
-    padding: 15px 30px;        /* ejemplo: más espacio horizontal */
+    
     display: flex;
     justify-content: flex-end;
+
   }
 
 
