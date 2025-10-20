@@ -3,20 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
+    <link rel="icon" href="images/heart_icon.ico" />
+    <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/small.css" />
+    <link rel="stylesheet" href="style/large.css" />
+    <script src="scripts/main.js" defer></script>
 
 </head>
 <body>
     <header>
-      <img src="images/one_320px.jpg" alt="Fondo" class="header-image">
+      <div class="drawings_box">
+        <img class="drawings" src="images/contact_three_1.jpg" alt="drawings">
+      <img class="drawings" src="images/contact_three_2.jpg" alt="drawings">
+      <img class="drawings" src="images/contact_three_1.jpg" alt="drawings">
+      <img class="drawings" src="images/contact_three_2.jpg" alt="drawings">
+       <img class="drawings" src="images/contact_three_1.jpg" alt="drawings">
+      </div>
     <nav>
+      <h1 class="mamasupport_title">MamaSupport
+        <h3>Contact</h3>
+      </h1>
       <ul class="nav_ul">
         <li class="nav_li"><a class="nav_a a_home" href="index.html">Home</a></li>
-        <li class="nav_li"><a class="nav_a" href="about.html">About Us</a></li>
+        <li class="nav_li"><a class="nav_a" href="about.html">About</a></li>
         <li class="nav_li"><a class="nav_a a_contact" href="contact.html">Contact Me</a></li>
       </ul>
     </nav>
+    <!-- <img class="mama_logo" id="mamaLogo" src="images/mama_support_logo105x106.png" alt="logo"> -->
   </header>
+  <main>
+    <section class="card_box">
+      <div class="card">
+        <form class="email_form" action="https://formspree.io/f/mrbyddzl" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <div class="send_box">
+        <button class="send_btn" type="submit">Send</button>
+      </div>
+
+      <p class="form_p">Thank you for reaching out. I'll be in contact as soon as I can!</p>
+    </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
