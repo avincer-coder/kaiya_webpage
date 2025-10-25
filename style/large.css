@@ -5,6 +5,8 @@
     }
     .img_black_white{
         margin: 0px;
+        height: 340px;
+        width: auto;
     }
     .mamasupport_title{
         top: -25px;
@@ -60,7 +62,7 @@
   .third_section{
     display: contents;
     display: flex;
-    /* width: 100vw; */
+    height: 520px;
   }
   .aside_a{
     font-size: 50px;
