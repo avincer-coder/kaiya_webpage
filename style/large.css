@@ -245,6 +245,7 @@
 .form_p{
     text-align: center;
     margin-top: 30px;
+    font-family: "Indie Flower", cursive;
 }
 .send_btn{
     color: white;
@@ -252,10 +253,11 @@
     margin-top: 50px;
     border-radius: 10px;
     width: 100px;
-    background-color: rgb(248, 88, 208);
+    background-color: rgb(243, 8, 184);
 }
 .send_btn:hover{
-    background-color: rgb(243, 8, 184);
+    background-color: rgb(248, 88, 208);
+    color: black;
 }
 .send_box{
     display: flex;
@@ -310,7 +312,7 @@ h2{
 .icons{
     font-size: 50px;
 }
-footer{
+.footer-all{
     height: 150px;
 }
 .social_icons_box{
@@ -322,5 +324,38 @@ footer{
     text-align: center;
     font-family: "Indie Flower", cursive;
     height: 20px;
+}
+.contact-icons{
+    font-size: 50px;    
+    color: pink;
+}
+.contact-icons:hover{
+    color: black;
+}
+.contact-social{
+    text-decoration: none;
+}
+.contact_icons_box{
+    height: 200px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+.h3-contact{
+    height: 60px;
+}
+.icons-footer-box-contact{
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h3-contact{
+    font-family: "Indie Flower", cursive;
+}
+.h3-card{
+    font-family: "Indie Flower", cursive;
+    text-align: center;
 }
 }
